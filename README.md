@@ -3,5 +3,5 @@ state lifting to share variables between components in React
 
 # props and state in each component
 ・App {props:"" , state:{messages}}  
- Create {props:{messages}, state:{input}}  
- Info   {props:{messages}, state:""}  
+&nbsp;　Create　&nbsp;{props:{messages}, state:{input}}  
+&nbsp;　Info　&nbsp;　 {props:{messages}, state:""}  
