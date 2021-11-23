@@ -6,22 +6,8 @@ import Info from "./Info";
 
 const App = () => {
   // example of using hooks : useState
-  let [name, setName] = useState("Origin Name");
-
   // lift state from Create.js
   let [messages, setMessages] = useState([]);
-
-  // button click handler
-  const buttonHandler = (e) => {
-    e.preventDefault();
-    let date = new Date().toLocaleDateString();
-    alert(date);
-  };
-
-  const changeNameHandler = (e) => {
-    e.preventDefault();
-    setName("Changed Name.");
-  };
 
   return (
     <div>
